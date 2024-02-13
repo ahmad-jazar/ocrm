@@ -4,24 +4,26 @@
             [
                 {
                     "name": "name"
-                },
-                false
+                }
             ],
             [
                 {
                     "name": "seminar"
                 },
                 {
-                    "name": "registrationStatus"
+                    "name": "contact"
                 }
             ],
             [
                 {
-                    "name": "description"
+                    "name": "registrationStatus"
+                },
+                {
+                    "name": "attended"
                 }
             ]
         ],
         "style": "default",
-        "label": "Overview"
+        "label": ""
     }
 ]

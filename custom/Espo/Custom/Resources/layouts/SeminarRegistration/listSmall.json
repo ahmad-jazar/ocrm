@@ -1,0 +1,13 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "label": "Name"
+    },
+    {
+        "name": "contact"
+    },
+    {
+        "name": "assignedUser"
+    }
+]
