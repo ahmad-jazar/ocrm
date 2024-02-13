@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "seminarRegistration": {
+            "type": "link"
+        }
+    },
+    "links": {
+        "seminarRegistration": {
+            "type": "belongsTo",
+            "foreign": "tasks",
+            "entity": "SeminarRegistration",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

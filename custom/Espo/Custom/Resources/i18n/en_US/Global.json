@@ -4,13 +4,19 @@
         "SessionRegistration": "Class Registration",
         "Seminar": "Seminar",
         "SeminarRegistration": "Seminar Registration",
-        "Resources": "Resources"
+        "Resources": "Resources",
+        "Activity": "Activity"
     },
     "scopeNamesPlural": {
         "Session": "Classes",
         "SessionRegistration": "Class Registrations",
         "Seminar": "Seminars",
         "SeminarRegistration": "Seminar Registrations",
-        "Resources": "Resourceses"
+        "Resources": "Resourceses",
+        "Activity": "Activities"
+    },
+    "labels": {
+        "Schedule Activity": "Schedule Activity",
+        "Log Activity": "Log Activity"
     }
 }

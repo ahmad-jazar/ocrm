@@ -1,0 +1,12 @@
+[
+    {
+        "route": "/UpcomingSeminar",
+        "method": "get",
+        "actionClassName": "Espo\\Custom\\Tools\\UpcomingSeminar\\Api\\Get"
+    },
+    {
+        "route": "/AddContact",
+        "method": "post",
+        "actionClassName": "Espo\\Custom\\Tools\\AddContact\\Api\\Post"
+    }
+]

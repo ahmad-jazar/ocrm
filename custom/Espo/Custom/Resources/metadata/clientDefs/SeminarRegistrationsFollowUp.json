@@ -1,0 +1,21 @@
+{
+  "controller": "custom:controllers/record",
+
+  "recordViews": {
+    "detail": "custom:views/seminar-registrations-follow-up/record/detail"
+  },
+  "boolFilterList": [
+    "onlyMy"
+  ],
+  "iconClass": "far fa-square",
+  "relationshipPanels": {
+    "contactSession": {
+      "layout": null
+    },
+    "contact": {
+      "layout": null
+    }
+  },
+  "kanbanViewMode": false,
+  "color": "#eb0000"
+}
