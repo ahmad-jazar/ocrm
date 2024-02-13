@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "seminarRegistrations": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "seminarRegistrations": {
+            "type": "hasMany",
+            "foreign": "contactOwner",
+            "entity": "SeminarRegistration",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

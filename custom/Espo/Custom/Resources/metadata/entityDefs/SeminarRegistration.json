@@ -142,6 +142,9 @@
             "exportDisabled": true,
             "customizationDisabled": true,
             "isCustom": true
+        },
+        "contactOwner": {
+            "type": "link"
         }
     },
     "links": {
@@ -202,6 +205,13 @@
             "type": "hasMany",
             "foreign": "seminarRegistration",
             "entity": "Activity",
+            "audited": false,
+            "isCustom": true
+        },
+        "contactOwner": {
+            "type": "belongsTo",
+            "foreign": "seminarRegistrations",
+            "entity": "User",
             "audited": false,
             "isCustom": true
         }

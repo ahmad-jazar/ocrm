@@ -28,6 +28,9 @@
         },
         "activities": {
             "layout": null
+        },
+        "contactOwner": {
+            "layout": null
         }
     },
     "kanbanViewMode": false,

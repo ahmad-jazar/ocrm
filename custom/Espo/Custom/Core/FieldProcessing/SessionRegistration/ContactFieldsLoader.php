@@ -33,6 +33,8 @@ class ContactFieldsLoader implements Loader
             $entity->set('phoneNumber', $contact->get('phoneNumber'));
 //            $entity->set('emailAddressData', $contact->get('emailAddressData'));
             $entity->set('emailAddress', $contact->get('emailAddress'));
+            $entity->set('contactOwnerName', $contact->get('assignedUserName'));
+            $entity->set('contactOwnerId', $contact->get('assignedUserId'));
         }
     }
 }

@@ -3,7 +3,7 @@ define('custom:views/seminar-registrations-follow-up/panels/contact-info', ['vie
         setupFields: function () {
 
             if (window.location.href.includes('SeminarRegistrationsFollowUp')) {
-                this.fieldList = ["contact", "salutationName", "firstName", "lastName", "phoneNumber", "emailAddress"];
+                this.fieldList = ["contact", "salutationName", "firstName", "lastName", "phoneNumber", "emailAddress","contactOwner"];
             } else {
                 Dep.prototype.setupFields.call(this);
             }

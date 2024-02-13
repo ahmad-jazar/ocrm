@@ -5,6 +5,7 @@ define('custom:views/seminar-registrations-follow-up/record/detail', ['views/rec
             Dep.prototype.setup.call(this);
 
             this.layoutName = 'SeminarRegistrationsFollowUpDetail';
+            this.setFieldReadOnly('seminar');
         },
 
         manageAccessEdit: function () {
