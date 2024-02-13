@@ -31,11 +31,12 @@ class Saver implements SaverInterface
             $contact->set('salutationName', $entity->get('salutationName'));
             $contact->set('firstName', $entity->get('firstName'));
             $contact->set('lastName', $entity->get('lastName'));
-            $contact->set('phoneNumber', $entity->get('phoneNumber'));
-//            $contact->set('emailAddressData', $entity->get('emailAddressData'));
-            $contact->set('emailAddress', $entity->get('emailAddress'));
+            $contact->set('vMobile', $entity->get('phoneNumber'));
+            $contact->set('vEmail', $entity->get('emailAddress'));
             $contact->set('assignedUserName', $entity->get('contactOwnerName'));
             $contact->set('assignedUserId', $entity->get('contactOwnerId'));
+            $contact->set('contactStatus', $entity->get('contactStatus'));
+            $contact->set('contactStatusSecondary', $entity->get('contactStatusSecondary'));
 
             $this->entityManager->saveEntity($contact);
         }

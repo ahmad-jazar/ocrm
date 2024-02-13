@@ -10,9 +10,7 @@
                 {
                     "name": "seminar"
                 },
-                {
-                    "name": "contact"
-                }
+                false
             ],
             [
                 {

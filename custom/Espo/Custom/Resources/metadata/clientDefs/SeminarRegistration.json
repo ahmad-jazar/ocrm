@@ -18,15 +18,18 @@
             "layout": null
         },
         "tasks": {
+            "createHandler": "custom:handlers/seminar-registration/tasks-create1",
             "layout": null
         },
         "reschedule": {
+            "createHandler": "custom:handlers/seminar-registration/tasks-create",
             "layout": null
         },
         "seminarRegistrationParent": {
             "layout": null
         },
         "activities": {
+            "createHandler": "custom:handlers/seminar-registration/tasks-create",
             "layout": null
         },
         "contactOwner": {
@@ -43,13 +46,13 @@
             "layout": null
         },
         "tasks": {
-            "createHandler": "custom:handlers/seminar-registration/tasks-create"
         },
         "activities": {
             "createHandler": "custom:handlers/seminar-registration/tasks-create"
         },
         "reschedule": {
-            "layout": null
+            "layout": null,
+            "createHandler": "custom:handlers/seminar-registration/tasks-create"
         },
         "contactRegParent": {
             "layout": null

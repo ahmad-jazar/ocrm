@@ -30,11 +30,12 @@ class ContactFieldsLoader implements Loader
             $entity->set('salutationName', $contact->get('salutationName'));
             $entity->set('firstName', $contact->get('firstName'));
             $entity->set('lastName', $contact->get('lastName'));
-            $entity->set('phoneNumber', $contact->get('phoneNumber'));
-//            $entity->set('emailAddressData', $contact->get('emailAddressData'));
-            $entity->set('emailAddress', $contact->get('emailAddress'));
+            $entity->set('vMobile', $contact->get('phoneNumber'));
+            $entity->set('vEmail', $contact->get('emailAddress'));
             $entity->set('contactOwnerName', $contact->get('assignedUserName'));
             $entity->set('contactOwnerId', $contact->get('assignedUserId'));
+            $entity->set('contactStatus', $contact->get('contactStatus'));
+            $entity->set('contactStatusSecondary', $contact->get('contactStatusSecondary'));
         }
     }
 }

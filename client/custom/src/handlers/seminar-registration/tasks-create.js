@@ -11,6 +11,8 @@ define('custom:handlers/seminar-registration/tasks-create', ['handlers/create-re
                 attributes['parentType'] = 'Contact';
                 attributes['parentId'] = model.get('contactId');
                 attributes['parentName'] = model.get('contactName');
+                attributes['contactName'] = model.get('contactName');
+                attributes['contactId'] = model.get('contactId');
             }
 
             return Promise.resolve(attributes);
