@@ -1,0 +1,11 @@
+{
+    "_delimiter_": {
+        "disabled": true
+    },
+    "contactInfo": {
+        "index": 0
+    },
+    "default": {
+        "index": 1
+    }
+}

@@ -10,13 +10,21 @@
         "seminarId2": "Seminar-Id2",
         "seminar": "Seminar",
         "contact1": "Contact1",
-        "parent": "Parent"
+        "parent": "Parent",
+        "tasks": "Tasks",
+        "reschedule": "Reschedule",
+        "seminarRegistrationParent": "Seminar Registration Parent",
+        "activities": "Activities"
     },
     "links": {
         "contact": "Contact",
         "seminar": "Seminar",
         "contact1": "Contact1",
-        "parent": "Parent"
+        "parent": "Parent",
+        "tasks": "Tasks",
+        "reschedule": "Reschedule",
+        "seminarRegistrationParent": "Seminar Registration Parent",
+        "activities": "Activities"
     },
     "labels": {
         "Create SeminarRegistration": "Create Seminar Registration"

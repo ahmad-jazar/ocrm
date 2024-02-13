@@ -1,5 +1,8 @@
 {
     "controller": "controllers/record",
+    "recordViews": {
+        "detail": "custom:views/seminar-registration/record/detail"
+    },
     "boolFilterList": [
         "onlyMy"
     ],
@@ -13,8 +16,54 @@
         },
         "parent": {
             "layout": null
+        },
+        "tasks": {
+            "layout": null
+        },
+        "reschedule": {
+            "layout": null
+        },
+        "seminarRegistrationParent": {
+            "layout": null
+        },
+        "activities": {
+            "layout": null
         }
     },
     "kanbanViewMode": false,
-    "color": null
+    "color": null,
+    "relationshipPanels1": {
+        "contactSession": {
+            "layout": null
+        },
+        "contact": {
+            "layout": null
+        },
+        "tasks": {
+            "createHandler": "custom:handlers/seminar-registration/tasks-create"
+        },
+        "activities": {
+            "createHandler": "custom:handlers/seminar-registration/tasks-create"
+        },
+        "reschedule": {
+            "layout": null
+        },
+        "contactRegParent": {
+            "layout": null
+        }
+    },
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "contactInfo",
+                "label": "Contact Info",
+                "view": "custom:views/seminar-registrations-follow-up/panels/contact-info",
+                "options": {
+                    "inlineEditDisabled": true,
+                    "mode": "detail"
+                },
+                "isForm": true
+            }
+        ]
+    }
 }

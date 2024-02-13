@@ -86,6 +86,62 @@
         },
         "contact": {
             "type": "link"
+        },
+        "salutationName": {
+            "type": "varchar",
+            "notStorable": true
+        },
+        "firstName": {
+            "type": "varchar",
+            "notStorable": true
+        },
+        "lastName": {
+            "type": "varchar",
+            "notStorable": true
+        },
+        "emailAddress": {
+            "type": "varchar",
+            "notStorable": true
+        },
+        "phoneNumber": {
+            "type": "varchar",
+            "notStorable": true
+        },
+        "tasks": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        },
+        "reschedule": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        },
+        "seminarRegistrationParent": {
+            "type": "link"
+        },
+        "activities": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
         }
     },
     "links": {
@@ -118,6 +174,34 @@
             "type": "belongsTo",
             "foreign": "seminarRegistrations",
             "entity": "Contact",
+            "audited": false,
+            "isCustom": true
+        },
+        "tasks": {
+            "type": "hasMany",
+            "foreign": "seminarRegistration",
+            "entity": "Task",
+            "audited": false,
+            "isCustom": true
+        },
+        "reschedule": {
+            "type": "hasMany",
+            "foreign": "seminarRegistrationParent",
+            "entity": "SeminarRegistration",
+            "audited": false,
+            "isCustom": true
+        },
+        "seminarRegistrationParent": {
+            "type": "belongsTo",
+            "foreign": "reschedule",
+            "entity": "SeminarRegistration",
+            "audited": false,
+            "isCustom": true
+        },
+        "activities": {
+            "type": "hasMany",
+            "foreign": "seminarRegistration",
+            "entity": "Activity",
             "audited": false,
             "isCustom": true
         }

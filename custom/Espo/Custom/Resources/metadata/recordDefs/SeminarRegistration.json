@@ -1,4 +1,10 @@
 {
     "duplicateWhereBuilderClassName": "Espo\\Classes\\DuplicateWhereBuilders\\General",
+    "readLoaderClassNameList": [
+        "Espo\\Custom\\Core\\FieldProcessing\\SessionRegistration\\ContactFieldsLoader"
+    ],
+    "saverClassNameList": [
+        "Espo\\Custom\\Core\\FieldProcessing\\SessionRegistration\\Saver"
+    ],
     "updateDuplicateCheck": false
 }

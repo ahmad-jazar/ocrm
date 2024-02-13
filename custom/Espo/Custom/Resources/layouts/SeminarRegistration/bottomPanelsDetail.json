@@ -1,0 +1,14 @@
+{
+    "_delimiter_": {
+        "disabled": true
+    },
+    "tasks": {
+        "index": 0
+    },
+    "activities": {
+        "index": 1
+    },
+    "reschedule": {
+        "index": 2
+    }
+}
