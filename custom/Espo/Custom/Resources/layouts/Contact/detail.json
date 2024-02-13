@@ -1,0 +1,204 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                },
+                {
+                    "name": "membershipId"
+                }
+            ],
+            [
+                {
+                    "name": "vEmail"
+                },
+                {
+                    "name": "createdDate"
+                }
+            ],
+            [
+                {
+                    "name": "notes"
+                }
+            ],
+            [
+                {
+                    "name": "contactStatus"
+                },
+                {
+                    "name": "contactStatusSecondary"
+                }
+            ],
+            [
+                {
+                    "name": "leadSource"
+                },
+                {
+                    "name": "clikAccountActiveDate"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "General Information"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "vPhone"
+                },
+                {
+                    "name": "vMobile"
+                }
+            ],
+            [
+                {
+                    "name": "vHomePhone"
+                },
+                {
+                    "name": "vOtherPhone"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Contact"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "addressCountry"
+                },
+                {
+                    "name": "addressCity"
+                }
+            ],
+            [
+                {
+                    "name": "addressState"
+                },
+                {
+                    "name": "addressPostalCode"
+                }
+            ],
+            [
+                {
+                    "name": "addressStreet"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": false,
+        "tabLabel": null,
+        "hidden": false,
+        "customLabel": "Address"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "coreStrategyXlt"
+                },
+                {
+                    "name": "coreStrategyOnline"
+                },
+                {
+                    "name": "coreStrategyGrad"
+                }
+            ],
+            [
+                {
+                    "name": "coreStrategyOnlocation"
+                },
+                {
+                    "name": "commodityGrad"
+                },
+                {
+                    "name": "eminiGrad"
+                }
+            ],
+            [
+                {
+                    "name": "forexXlt"
+                },
+                {
+                    "name": "forexOnline"
+                },
+                {
+                    "name": "forexGrad"
+                }
+            ],
+            [
+                {
+                    "name": "futuresXlt"
+                },
+                {
+                    "name": "futuresOnline"
+                },
+                {
+                    "name": "isGradWithoutXlt"
+                }
+            ],
+            [
+                {
+                    "name": "optionsXlt"
+                },
+                {
+                    "name": "optionsOnline"
+                },
+                {
+                    "name": "optionsGrad"
+                }
+            ],
+            [
+                {
+                    "name": "siXlt"
+                },
+                {
+                    "name": "siOnline"
+                },
+                {
+                    "name": "xltHolder"
+                }
+            ],
+            [
+                {
+                    "name": "passportHolder"
+                },
+                {
+                    "name": "proactiveInvestorGrad"
+                },
+                {
+                    "name": "mtoAttendee"
+                }
+            ],
+            [
+                {
+                    "name": "stockXlt"
+                },
+                {
+                    "name": "stockOnline"
+                },
+                {
+                    "name": "stockGrad"
+                }
+            ]
+        ],
+        "dynamicLogicVisible": null,
+        "style": "default",
+        "tabBreak": true,
+        "tabLabel": "Class Summary",
+        "hidden": false,
+        "customLabel": ""
+    }
+]

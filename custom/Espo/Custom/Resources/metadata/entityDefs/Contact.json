@@ -1,0 +1,328 @@
+{
+    "fields": {
+        "membershipId": {
+            "type": "int",
+            "isCustom": true,
+            "readOnly": true,
+            "disableFormatting": true
+        },
+        "digitContactID": {
+            "type": "varchar",
+            "maxLength": 150,
+            "options": [],
+            "isCustom": true
+        },
+        "contactStatus": {
+            "type": "enum",
+            "options": [
+                "Bad Record - Delete",
+                "Cold",
+                "Grad",
+                "No Interest",
+                "Pre-Grad",
+                "Prospect",
+                "Prospect - Workshop",
+                "Workshop - No Show / XL",
+                "Workshop Attendee"
+            ],
+            "style": {
+                "Bad Record - Delete": null,
+                "Cold": null,
+                "Grad": null,
+                "No Interest": null,
+                "Pre-Grad": null,
+                "Prospect": null,
+                "Prospect - Workshop": null,
+                "Workshop - No Show / XL": null,
+                "Workshop Attendee": null
+            },
+            "default": "Bad Record - Delete",
+            "isCustom": true
+        },
+        "contactStatusSecondary": {
+            "type": "enum",
+            "style": {
+                "-": null,
+                "Bad # / Bad Email": null,
+                "Cancelled Sale": null,
+                "Mastermind": null,
+                "Non-buyer": null,
+                "Passport": null
+            },
+            "isCustom": true,
+            "options": [
+                "-",
+                "Bad # / Bad Email",
+                "Cancelled Sale",
+                "Mastermind",
+                "Non-buyer",
+                "Passport"
+            ],
+            "default": "-"
+        },
+        "notes": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 300,
+            "isCustom": true
+        },
+        "vPhone": {
+            "type": "varchar",
+            "maxLength": 150,
+            "options": [],
+            "isCustom": true
+        },
+        "vMobile": {
+            "type": "varchar",
+            "maxLength": 150,
+            "options": [],
+            "isCustom": true
+        },
+        "vOtherPhone": {
+            "type": "varchar",
+            "maxLength": 150,
+            "options": [],
+            "isCustom": true
+        },
+        "vHomePhone": {
+            "type": "varchar",
+            "maxLength": 150,
+            "options": [],
+            "isCustom": true
+        },
+        "vEmail": {
+            "type": "varchar",
+            "maxLength": 150,
+            "options": [],
+            "isCustom": true
+        },
+        "clikAccountActiveDate": {
+            "type": "varchar",
+            "maxLength": 150,
+            "readOnly": true,
+            "options": [],
+            "isCustom": true
+        },
+        "isGradWithoutXlt": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "passportHolder": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "xltHolder": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "coreStrategyXlt": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "forexXlt": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "futuresXlt": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "optionsXlt": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "siXlt": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "stockXlt": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "stockGrad": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "forexGrad": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "commodityGrad": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "eminiGrad": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "proactiveInvestorGrad": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "optionsGrad": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "coreStrategyGrad": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "coreStrategyOnline": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "forexOnline": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "futuresOnline": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "optionsOnline": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "siOnline": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "stockOnline": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "coreStrategyOnlocation": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "mtoAttendee": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "leadSource": {
+            "type": "enum",
+            "options": [
+                "Affiliate",
+                "Direct Mail",
+                "E-Mail",
+                "Friend/Referral",
+                "Magazine/Newspaper",
+                "Not Assigned",
+                "Other",
+                "Please select one",
+                "Podcast",
+                "Radio",
+                "Search Engine/Online Ad",
+                "Social Media",
+                "Television",
+                "Web",
+                "Website/Webinar"
+            ],
+            "style": {
+                "Affiliate": null,
+                "Direct Mail": null,
+                "E-Mail": null,
+                "Friend/Referral": null,
+                "Magazine/Newspaper": null,
+                "Not Assigned": null,
+                "Other": null,
+                "Please select one": null,
+                "Podcast": null,
+                "Radio": null,
+                "Search Engine/Online Ad": null,
+                "Social Media": null,
+                "Television": null,
+                "Web": null,
+                "Website/Webinar": null
+            },
+            "default": "Affiliate",
+            "isCustom": true
+        },
+        "createdDate": {
+            "notNull": false,
+            "type": "date",
+            "isCustom": true,
+            "readOnly": true
+        },
+        "sessionRegistrations": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        },
+        "resourceses": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        },
+        "seminarRegistrations": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDisabled": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "sessionRegistrations": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "SessionRegistration",
+            "audited": false,
+            "isCustom": true
+        },
+        "resourceses": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "Resources",
+            "audited": false,
+            "isCustom": true
+        },
+        "seminarRegistrations": {
+            "type": "hasMany",
+            "foreign": "contact",
+            "entity": "SeminarRegistration",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

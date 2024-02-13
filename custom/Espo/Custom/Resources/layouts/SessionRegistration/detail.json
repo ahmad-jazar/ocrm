@@ -1,0 +1,38 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "registrationId"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "session"
+                },
+                {
+                    "name": "contact"
+                }
+            ],
+            [
+                {
+                    "name": "createdDate"
+                },
+                {
+                    "name": "attended"
+                }
+            ],
+            [
+                {
+                    "name": "invoiceNumber"
+                },
+                {
+                    "name": "paid"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

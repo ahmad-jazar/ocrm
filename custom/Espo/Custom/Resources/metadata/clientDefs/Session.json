@@ -1,0 +1,39 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-book-open",
+    "relationshipPanels": {
+        "sessionRegistrations": {
+            "layout": null
+        },
+        "resourceses": {
+            "layout": null
+        }
+    },
+    "bottomPanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "isReportPanel": true,
+                "name": "reportPanel65b4abae7517f0635",
+                "label": "Class Registration",
+                "view": "advanced:views/report-panel/record/panels/report-panel-bottom",
+                "reportPanelId": "65b4abae7517f0635",
+                "reportType": "List",
+                "reportEntityType": "SessionRegistration",
+                "displayType": "List",
+                "displayTotal": false,
+                "displayOnlyTotal": false,
+                "useSiMultiplier": true,
+                "accessDataList": [
+                    {
+                        "scope": "SessionRegistration"
+                    }
+                ],
+                "order": 4
+            }
+        ]
+    }
+}

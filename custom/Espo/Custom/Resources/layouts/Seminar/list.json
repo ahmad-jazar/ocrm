@@ -1,0 +1,29 @@
+[
+    {
+        "name": "name",
+        "width": 35,
+        "link": true,
+        "align": "left",
+        "label": "Name"
+    },
+    {
+        "name": "seminarStartTime",
+        "label": "Seminar Start Time"
+    },
+    {
+        "name": "seminarEndTime",
+        "label": "Seminar End Time"
+    },
+    {
+        "name": "seatCapacity",
+        "label": "Seat Capacity"
+    },
+    {
+        "name": "soldOut",
+        "label": "Sold Out"
+    },
+    {
+        "name": "assignedUser",
+        "label": "Presenter"
+    }
+]

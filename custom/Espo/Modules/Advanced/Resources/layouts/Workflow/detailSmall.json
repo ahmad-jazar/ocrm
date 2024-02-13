@@ -1,0 +1,13 @@
+[
+    {
+        "label":"",
+        "rows":[
+            [{"name":"name"}],
+            [{"name":"isActive"}],
+            [{"name":"entityType"}],
+            [{"name":"type"}],
+            [{"name": "category"}],
+            [{"name":"description"}]
+        ]
+    }
+]

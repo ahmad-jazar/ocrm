@@ -1,0 +1,28 @@
+{
+    "fields": {
+        "createdDate": "Created Date",
+        "seminarId": "Seminar ID",
+        "assignedUser": "Presenter",
+        "seminarStartTime": "Seminar Start Time",
+        "seminarEndTime": "Seminar End Time",
+        "seatCapacity": "Seat Capacity",
+        "soldOut": "Sold Out",
+        "seminarRegistrations": "Seminar Registrations",
+        "location": "Location",
+        "address": "Address",
+        "visibility": "Visibility"
+    },
+    "links": {
+        "seminarRegistrations": "Seminar Registrations"
+    },
+    "labels": {
+        "Create Seminar": "Create Seminar"
+    },
+    "options": {
+        "location": {
+            "Remote": "Remote",
+            "On-location": "On-location",
+            "On-line": "On-line"
+        }
+    }
+}

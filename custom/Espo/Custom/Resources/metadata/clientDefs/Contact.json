@@ -1,0 +1,76 @@
+{
+    "relationshipPanels": {
+        "sessionRegistrations": {
+            "layout": null
+        },
+        "resourceses": {
+            "layout": null
+        },
+        "seminarRegistrations": {
+            "layout": null
+        }
+    },
+    "sidePanels": [],
+    "bottomPanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "isReportPanel": true,
+                "name": "reportPanel65b45c7fab292a3cc",
+                "label": "Class Registration",
+                "view": "advanced:views/report-panel/record/panels/report-panel-bottom",
+                "reportPanelId": "65b45c7fab292a3cc",
+                "reportType": "List",
+                "reportEntityType": "SessionRegistration",
+                "displayType": "List",
+                "displayTotal": false,
+                "displayOnlyTotal": false,
+                "useSiMultiplier": true,
+                "accessDataList": [
+                    {
+                        "scope": "SessionRegistration"
+                    }
+                ],
+                "order": 5
+            },
+            {
+                "isReportPanel": true,
+                "name": "reportPanel65b4c113cbd55b4fa",
+                "label": "Resources",
+                "view": "advanced:views/report-panel/record/panels/report-panel-bottom",
+                "reportPanelId": "65b4c113cbd55b4fa",
+                "reportType": "List",
+                "reportEntityType": "Resources",
+                "displayType": "List",
+                "displayTotal": false,
+                "displayOnlyTotal": false,
+                "useSiMultiplier": true,
+                "accessDataList": [
+                    {
+                        "scope": "Resources"
+                    }
+                ],
+                "order": 5
+            },
+            {
+                "isReportPanel": true,
+                "name": "reportPanel65b3904f8885aa087",
+                "label": "Seminar-Registration",
+                "view": "advanced:views/report-panel/record/panels/report-panel-bottom",
+                "reportPanelId": "65b3904f8885aa087",
+                "reportType": "List",
+                "reportEntityType": "SeminarRegistration",
+                "displayType": "List",
+                "displayTotal": false,
+                "displayOnlyTotal": false,
+                "useSiMultiplier": true,
+                "accessDataList": [
+                    {
+                        "scope": "SeminarRegistration"
+                    }
+                ],
+                "order": 4
+            }
+        ]
+    }
+}

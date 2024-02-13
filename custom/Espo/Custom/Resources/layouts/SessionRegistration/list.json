@@ -1,0 +1,25 @@
+[
+    {
+        "name": "registrationId",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "contact"
+    },
+    {
+        "name": "session"
+    },
+    {
+        "name": "invoiceNumber"
+    },
+    {
+        "name": "paid"
+    },
+    {
+        "name": "attended"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

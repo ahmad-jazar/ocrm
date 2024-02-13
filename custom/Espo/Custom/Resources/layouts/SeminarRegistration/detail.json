@@ -1,0 +1,42 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "seminar"
+                }
+            ],
+            [
+                {
+                    "name": "contact"
+                },
+                {
+                    "name": "attended"
+                }
+            ],
+            [
+                {
+                    "name": "registrationDate"
+                },
+                {
+                    "name": "registrationId"
+                }
+            ],
+            [
+                {
+                    "name": "registrationStatus"
+                },
+                {
+                    "name": "membershipId"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

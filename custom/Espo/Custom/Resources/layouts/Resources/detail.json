@@ -1,0 +1,35 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "registrationId"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "invoiceNumber"
+                },
+                {
+                    "name": "paid"
+                }
+            ],
+            [
+                {
+                    "name": "registrationDate"
+                },
+                {
+                    "name": "registrationStatus"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

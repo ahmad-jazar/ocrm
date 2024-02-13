@@ -1,0 +1,33 @@
+{
+    "fields": {
+        "assignedUser": "Assigned EC",
+        "registrationId": "Reg ID",
+        "membershipId": "Membership ID",
+        "registrationDate": "Reg Date",
+        "registrationStatus": "Reg Status",
+        "contact": "Contact",
+        "attended": "Attended",
+        "seminarId2": "Seminar-Id2",
+        "seminar": "Seminar",
+        "contact1": "Contact1",
+        "parent": "Parent"
+    },
+    "links": {
+        "contact": "Contact",
+        "seminar": "Seminar",
+        "contact1": "Contact1",
+        "parent": "Parent"
+    },
+    "labels": {
+        "Create SeminarRegistration": "Create Seminar Registration"
+    },
+    "options": {
+        "registrationStatus": {
+            "Left a Message": "Left a Message",
+            "Attendance Verified": "Attendance Verified",
+            "-": "-",
+            "Cancelled": "Cancelled",
+            "Rescheduled": "Rescheduled"
+        }
+    }
+}

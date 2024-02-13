@@ -1,0 +1,30 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "label": "Name"
+    },
+    {
+        "name": "vEmail",
+        "label": "VEmail"
+    },
+    {
+        "name": "vMobile",
+        "label": "VMobile"
+    },
+    {
+        "name": "vPhone",
+        "label": "VPhone"
+    },
+    {
+        "name": "contactStatus",
+        "label": "Contact Status"
+    },
+    {
+        "name": "contactStatusSecondary",
+        "label": "Contact Status Secondary"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

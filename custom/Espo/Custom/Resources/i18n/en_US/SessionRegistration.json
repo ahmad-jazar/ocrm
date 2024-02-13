@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "registrationId": "Registration ID",
+        "createdDate": "Created Date",
+        "invoiceNumber": "Invoice Number",
+        "assignedUser": "Assigned EC",
+        "attended": "Attended",
+        "paid": "Paid",
+        "vMembershipId": "VMembershipId",
+        "contact": "Contact",
+        "session": "Session",
+        "classId2": "Class Id2"
+    },
+    "links": {
+        "contact": "Contact",
+        "session": "Session"
+    },
+    "labels": {
+        "Create SessionRegistration": "Create Class Registration"
+    },
+    "tooltips": {
+        "vMembershipId": "Temp Membership Id"
+    }
+}

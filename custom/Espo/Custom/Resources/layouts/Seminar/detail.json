@@ -1,0 +1,45 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "name"
+                }
+            ],
+            [
+                {
+                    "name": "seatCapacity"
+                },
+                {
+                    "name": "visibility"
+                },
+                {
+                    "name": "soldOut"
+                }
+            ],
+            [
+                {
+                    "name": "seminarStartTime"
+                },
+                {
+                    "name": "seminarEndTime"
+                }
+            ],
+            [
+                {
+                    "name": "createdDate"
+                },
+                {
+                    "name": "location"
+                }
+            ],
+            [
+                {
+                    "name": "address"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

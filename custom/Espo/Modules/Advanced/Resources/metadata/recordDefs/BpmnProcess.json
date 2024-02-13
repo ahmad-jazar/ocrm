@@ -1,0 +1,12 @@
+{
+    "actions": {
+        "merge": {
+            "disabled": true
+        }
+    },
+    "relationships": {
+        "flowNodes": {
+            "selectAccessControlDisabled": true
+        }
+    }
+}

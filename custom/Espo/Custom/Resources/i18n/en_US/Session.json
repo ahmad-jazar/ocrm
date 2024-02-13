@@ -1,0 +1,20 @@
+{
+    "fields": {
+        "classStartDate": "Class Start Date",
+        "classEndDate": "Class End Date",
+        "assignedUser": "Instructor Name",
+        "seatCapacity": "Seat Capacity",
+        "occupiedSeats": "Occupied Seats",
+        "soldOut": "Sold Out",
+        "classId": "Class ID",
+        "sessionRegistrations": "Session Registrations",
+        "resourceses": "Resourceses"
+    },
+    "links": {
+        "sessionRegistrations": "Session Registrations",
+        "resourceses": "Resourceses"
+    },
+    "labels": {
+        "Create Session": "Create Class"
+    }
+}

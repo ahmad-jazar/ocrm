@@ -1,0 +1,32 @@
+[
+    {
+        "name": "name",
+        "link": true,
+        "label": "Name"
+    },
+    {
+        "name": "seminar",
+        "width": 30,
+        "align": "left"
+    },
+    {
+        "name": "contact",
+        "label": "Contact"
+    },
+    {
+        "name": "registrationDate",
+        "label": "Registration Date"
+    },
+    {
+        "name": "registrationStatus",
+        "label": "Registration Status"
+    },
+    {
+        "name": "assignedUser",
+        "label": "Assigned EC"
+    },
+    {
+        "name": "membershipId",
+        "label": "Membership ID"
+    }
+]

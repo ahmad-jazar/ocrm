@@ -1,0 +1,20 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-award",
+    "relationshipPanels": {
+        "seminar": {
+            "layout": null
+        },
+        "contact": {
+            "layout": null
+        },
+        "parent": {
+            "layout": null
+        }
+    },
+    "kanbanViewMode": false,
+    "color": null
+}

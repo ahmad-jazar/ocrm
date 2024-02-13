@@ -1,0 +1,27 @@
+[
+    {
+        "name": "name",
+        "width": 35,
+        "link": true,
+        "align": "left",
+        "label": "Name"
+    },
+    {
+        "name": "classStartDate"
+    },
+    {
+        "name": "classEndDate"
+    },
+    {
+        "name": "seatCapacity"
+    },
+    {
+        "name": "occupiedSeats"
+    },
+    {
+        "name": "soldOut"
+    },
+    {
+        "name": "assignedUser"
+    }
+]

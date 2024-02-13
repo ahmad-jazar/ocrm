@@ -1,0 +1,36 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-users",
+    "relationshipPanels": {
+        "seminarRegistrations": {
+            "layout": null
+        }
+    },
+    "bottomPanels": {
+        "detail": [
+            "__APPEND__",
+            {
+                "isReportPanel": true,
+                "name": "reportPanel65b397f81e20da812",
+                "label": "Seminar-Registration",
+                "view": "advanced:views/report-panel/record/panels/report-panel-bottom",
+                "reportPanelId": "65b397f81e20da812",
+                "reportType": "List",
+                "reportEntityType": "SeminarRegistration",
+                "displayType": "List",
+                "displayTotal": false,
+                "displayOnlyTotal": false,
+                "useSiMultiplier": true,
+                "accessDataList": [
+                    {
+                        "scope": "SeminarRegistration"
+                    }
+                ],
+                "order": 4
+            }
+        ]
+    }
+}

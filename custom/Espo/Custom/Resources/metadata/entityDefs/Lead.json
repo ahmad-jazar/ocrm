@@ -1,0 +1,50 @@
+{
+    "fields": {
+        "source": {
+            "options": [
+                "",
+                "Call",
+                "Email",
+                "Existing Customer",
+                "Partner",
+                "Public Relations",
+                "Web Site",
+                "Campaign",
+                "Other",
+                "Expo",
+                "Affiliate",
+                "Direct Mail",
+                "E-Mail",
+                "GMS Advertising",
+                "Please select one",
+                "Radio",
+                "Search Engine/Online Ad",
+                "Web",
+                "Webinar",
+                "Website/Webinar"
+            ],
+            "style": {
+                "": null,
+                "Call": null,
+                "Email": null,
+                "Existing Customer": null,
+                "Partner": null,
+                "Public Relations": null,
+                "Web Site": null,
+                "Campaign": null,
+                "Other": null,
+                "Expo": null,
+                "Affiliate": null,
+                "Direct Mail": null,
+                "E-Mail": null,
+                "GMS Advertising": null,
+                "Please select one": null,
+                "Radio": null,
+                "Search Engine/Online Ad": null,
+                "Web": null,
+                "Webinar": null,
+                "Website/Webinar": null
+            }
+        }
+    }
+}

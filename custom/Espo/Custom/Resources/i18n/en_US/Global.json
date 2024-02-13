@@ -1,0 +1,16 @@
+{
+    "scopeNames": {
+        "Session": "Class",
+        "SessionRegistration": "Class Registration",
+        "Seminar": "Seminar",
+        "SeminarRegistration": "Seminar Registration",
+        "Resources": "Resources"
+    },
+    "scopeNamesPlural": {
+        "Session": "Classes",
+        "SessionRegistration": "Class Registrations",
+        "Seminar": "Seminars",
+        "SeminarRegistration": "Seminar Registrations",
+        "Resources": "Resourceses"
+    }
+}

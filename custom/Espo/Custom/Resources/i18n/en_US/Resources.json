@@ -1,0 +1,24 @@
+{
+    "fields": {
+        "attended": "Attended",
+        "registrationDate": "Reg Date",
+        "registrationId": "Reg ID",
+        "registrationStatus": "Reg Status",
+        "paid": "Paid",
+        "vMembershipId": "VMembershipId",
+        "invoiceNumber": "InvoiceNumber",
+        "createdDate": "CreatedDate",
+        "contact": "Contact",
+        "session": "Session"
+    },
+    "links": {
+        "contact": "Contact",
+        "session": "Session"
+    },
+    "labels": {
+        "Create Resources": "Create Resources"
+    },
+    "options": {
+        "registrationStatus": []
+    }
+}

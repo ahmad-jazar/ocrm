@@ -1,0 +1,22 @@
+# Ignore configuration files
+config.php
+
+# Ignore Composer dependencies
+vendor/
+
+# Ignore EspoCRM cache and temporary files
+data/cache/
+data/logs/
+client/cache/
+client/tmp/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore backup files
+*.bak
+
+# Ignore miscellaneous files
+composer.lock
+composer.phar

@@ -1,0 +1,35 @@
+[
+    {
+        "name": "registrationId",
+        "link": true,
+        "align": "left",
+        "label": "Reg ID"
+    },
+    {
+        "name": "name",
+        "width": 25,
+        "link": true,
+        "align": "left",
+        "label": "Name"
+    },
+    {
+        "name": "contact",
+        "label": "Contact"
+    },
+    {
+        "name": "invoiceNumber",
+        "label": "InvoiceNumber"
+    },
+    {
+        "name": "paid",
+        "label": "Paid"
+    },
+    {
+        "name": "assignedUser",
+        "label": "Assigned User"
+    },
+    {
+        "name": "createdDate",
+        "label": "CreatedDate"
+    }
+]

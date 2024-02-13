@@ -1,0 +1,17 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "kanbanViewMode": false,
+    "color": null,
+    "iconClass": "fas fa-book",
+    "relationshipPanels": {
+        "contact": {
+            "layout": null
+        },
+        "session": {
+            "layout": null
+        }
+    }
+}
