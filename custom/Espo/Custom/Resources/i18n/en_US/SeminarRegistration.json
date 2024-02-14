@@ -14,7 +14,8 @@
         "tasks": "Tasks",
         "reschedule": "Reschedule",
         "seminarRegistrationParent": "Seminar Registration Parent",
-        "activities": "Activities"
+        "activities": "Activities",
+        "contactOwner": "Contact Owner"
     },
     "links": {
         "contact": "Contact",
@@ -24,7 +25,8 @@
         "tasks": "Tasks",
         "reschedule": "Reschedule",
         "seminarRegistrationParent": "Seminar Registration Parent",
-        "activities": "Activities"
+        "activities": "Activities",
+        "contactOwner": "Contact Owner"
     },
     "labels": {
         "Create SeminarRegistration": "Create Seminar Registration"

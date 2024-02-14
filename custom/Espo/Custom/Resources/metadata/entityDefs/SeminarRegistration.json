@@ -107,6 +107,55 @@
             "type": "varchar",
             "notStorable": true
         },
+        "contactStatus": {
+            "type": "enum",
+            "options": [
+                "Bad Record - Delete",
+                "Cold",
+                "Grad",
+                "No Interest",
+                "Pre-Grad",
+                "Prospect",
+                "Prospect - Workshop",
+                "Workshop - No Show / XL",
+                "Workshop Attendee"
+            ],
+            "style": {
+                "Bad Record - Delete": null,
+                "Cold": null,
+                "Grad": null,
+                "No Interest": null,
+                "Pre-Grad": null,
+                "Prospect": null,
+                "Prospect - Workshop": null,
+                "Workshop - No Show / XL": null,
+                "Workshop Attendee": null
+            },
+            "default": "Bad Record - Delete",
+            "notStorable": true
+        },
+        "contactStatusSecondary": {
+            "type": "enum",
+            "style": {
+                "-": null,
+                "Bad # / Bad Email": null,
+                "Cancelled Sale": null,
+                "Mastermind": null,
+                "Non-buyer": null,
+                "Passport": null
+            },
+            "isCustom": true,
+            "options": [
+                "-",
+                "Bad # / Bad Email",
+                "Cancelled Sale",
+                "Mastermind",
+                "Non-buyer",
+                "Passport"
+            ],
+            "default": "-",
+            "notStorable": true
+        },
         "tasks": {
             "type": "linkMultiple",
             "layoutDetailDisabled": true,
@@ -142,6 +191,9 @@
             "exportDisabled": true,
             "customizationDisabled": true,
             "isCustom": true
+        },
+        "contactOwner": {
+            "type": "link"
         }
     },
     "links": {
@@ -202,6 +254,13 @@
             "type": "hasMany",
             "foreign": "seminarRegistration",
             "entity": "Activity",
+            "audited": false,
+            "isCustom": true
+        },
+        "contactOwner": {
+            "type": "belongsTo",
+            "foreign": "seminarRegistrations",
+            "entity": "User",
             "audited": false,
             "isCustom": true
         }

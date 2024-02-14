@@ -36,22 +36,22 @@ class Post implements Action
         }
 
         $contact = $this->entityManager->getRepository(Contact::ENTITY_TYPE)->where([
-            'emailAddress' => $email,
+            'vEmail' => $email,
         ])->findOne();
 
         if (empty($contact)) {
             $contact = $this->entityManager->createEntity(Contact::ENTITY_TYPE, [
                 'firstName' => $firstName,
                 'lastName' => $lastName,
-                'emailAddress' => $email,
-                'phoneNumber' => $phone
+                'vEmail' => $email,
+                'vMobile' => $phone
             ]);
             $massage = 'Contact created';
 
         } else {
             $contact->set('firstName', $firstName);
             $contact->set('lastName', $lastName);
-            $contact->set('phoneNumber', $phone);
+            $contact->set('vMobile', $phone);
             $this->entityManager->saveEntity($contact);
             $massage = 'Contact already exists';
         }

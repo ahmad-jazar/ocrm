@@ -17,6 +17,14 @@
             ],
             [
                 {
+                    "name": "assignedUser"
+                },
+                {
+                    "name": "teams"
+                }
+            ],
+            [
+                {
                     "name": "description"
                 }
             ]

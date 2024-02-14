@@ -7,12 +7,34 @@
   "boolFilterList": [
     "onlyMy"
   ],
+  "createDisabled": true,
   "iconClass": "far fa-square",
   "relationshipPanels": {
-    "contactSession": {
+    "seminar": {
       "layout": null
     },
     "contact": {
+      "layout": null
+    },
+    "parent": {
+      "layout": null
+    },
+    "tasks": {
+      "createHandler": "custom:handlers/seminar-registration/tasks-create",
+      "layout": null
+    },
+    "reschedule": {
+      "createHandler": "custom:handlers/seminar-registration/tasks-create",
+      "layout": null
+    },
+    "seminarRegistrationParent": {
+      "layout": null
+    },
+    "activities": {
+      "createHandler": "custom:handlers/seminar-registration/tasks-create",
+      "layout": null
+    },
+    "contactOwner": {
       "layout": null
     }
   },
