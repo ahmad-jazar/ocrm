@@ -125,44 +125,45 @@
             "type": "enum",
             "options": [
                 "",
-                "Call/Action Completed",
-                "Bad #",
-                "Bad # / Bad Email",
+                "CallActionCompleted",
+                "Bad",
+                "BadEmail",
                 "Busy",
-                "Answering Machine/No Ans"
+                "AnsweringMachineNoAns"
             ],
             "style": {
                 "": null,
-                "Call/Action Completed": null,
-                "Bad #": null,
-                "Bad # / Bad Email": null,
+                "CallActionCompleted": null,
+                "Bad": null,
+                "BadEmail": null,
                 "Busy": null,
-                "Answering Machine/No Ans": null
+                "AnsweringMachineNoAns": null
             },
             "default": null,
-            "isCustom": true
+            "isCustom": true,
+            "view": "custom:views/activity/fields/call-status"
         },
         "callResult": {
             "type": "enum",
             "options": [
                 "",
                 "None",
-                "Left a Message",
-                "No Show Called - Created New Sem Reg",
-                "No Show Called - Prospect",
-                "No Show Called - No Interest",
-                "Busy/No Answer",
-                "Email Instead"
+                "LeftAMessage",
+                "NoShowCalled-CreatedNewSemReg",
+                "NoShowCalled-Prospect",
+                "NoShowCalled-NoInterest",
+                "BusyNoAnswer",
+                "EmailInstead"
             ],
             "style": {
                 "": null,
                 "None": null,
-                "Left a Message": null,
-                "No Show Called - Created New Sem Reg": null,
-                "No Show Called - Prospect": null,
-                "No Show Called - No Interest": null,
-                "Busy/No Answer": null,
-                "Email Instead": null
+                "LeftAMessage": null,
+                "NoShowCalled-CreatedNewSemReg": null,
+                "NoShowCalled-Prospect": null,
+                "NoShowCalled-NoInterest": null,
+                "BusyNoAnswer": null,
+                "EmailInstead": null
             },
             "isCustom": true
         }
