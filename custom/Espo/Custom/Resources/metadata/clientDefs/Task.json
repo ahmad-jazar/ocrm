@@ -3,5 +3,25 @@
         "seminarRegistration": {
             "layout": null
         }
+    },
+    "dynamicLogic": {
+        "fields": {
+            "parent": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "parentId",
+                            "data": {
+                                "field": "parent"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "modalViews": {
+        "edit": "custom:views/common/modals/edit"
     }
 }

@@ -74,6 +74,19 @@
                         }
                     ]
                 }
+            },
+            "parent": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "parentId",
+                            "data": {
+                                "field": "parent"
+                            }
+                        }
+                    ]
+                }
             }
         }
     },
@@ -81,5 +94,8 @@
         "seminarRegistration": {
             "layout": null
         }
+    },
+    "modalViews": {
+        "edit": "custom:views/common/modals/edit"
     }
 }
