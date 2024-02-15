@@ -9,6 +9,13 @@
             "layout": null
         }
     },
+    "filterList": [
+        {
+            "name": "upcoming",
+            "label": "Upcoming",
+            "style": "info"
+        }
+    ],
     "bottomPanels1": {
         "detail": [
             "__APPEND__",

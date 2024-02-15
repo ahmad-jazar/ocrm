@@ -82,7 +82,8 @@
             "isCustom": true
         },
         "seminar": {
-            "type": "link"
+            "type": "link",
+            "view": "custom:views/seminar-registration/fields/seminar"
         },
         "contact": {
             "type": "link"
