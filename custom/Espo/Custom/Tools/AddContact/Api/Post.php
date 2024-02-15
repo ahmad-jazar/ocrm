@@ -68,7 +68,7 @@ class Post implements Action
         }
 
         return ResponseComposer::json([
-            $massage
+            "message" => $massage
         ]);
     }
 }
