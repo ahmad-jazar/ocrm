@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "ifThen(string\\length(name)==0, name=seminarRegistrationParent.name);"
+}

@@ -3,22 +3,36 @@
         "rows": [
             [
                 {
-                    "name": "name"
+                    "name": "seminar"
                 }
             ],
             [
                 {
-                    "name": "seminar"
+                    "name": "address"
+                }
+            ],
+            [
+                {
+                    "name": "campaign"
                 },
                 false
             ],
             [
                 {
+                    "name": "leadSource"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "registrationNotes"
+                }
+            ],
+            [
+                {
                     "name": "registrationStatus"
                 },
-                {
-                    "name": "attended"
-                }
+                false
             ]
         ],
         "style": "default",

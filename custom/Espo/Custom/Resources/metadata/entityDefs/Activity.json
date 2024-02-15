@@ -28,12 +28,15 @@
         },
         "dateEnd": {
             "type": "datetimeOptional",
+            "notNull": false,
             "view": "crm:views/meeting/fields/date-end",
             "required": true,
             "after": "dateStart",
             "suppressValidationList": [
                 "required"
-            ]
+            ],
+            "default": "javascript: return this.dateTime.getNow(1);",
+            "minuteStep": 30
         },
         "isAllDay": {
             "type": "bool",

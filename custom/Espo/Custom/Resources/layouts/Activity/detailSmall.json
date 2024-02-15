@@ -1,49 +1,33 @@
 [
     {
-        "label": "",
         "rows": [
             [
                 {
-                    "name": "name",
-                    "fullWidth": true
+                    "name": "callStatus"
                 }
             ],
             [
                 {
-                    "name": "status",
-                    "fullWidth": true
+                    "name": "callResult"
                 }
             ],
             [
                 {
-                    "name": "dateStart",
-                    "fullWidth": true
+                    "name": "name"
                 }
             ],
             [
                 {
-                    "name": "duration",
-                    "fullWidth": true
+                    "name": "description"
                 }
             ],
             [
                 {
-                    "name": "dateEnd",
-                    "fullWidth": true
-                }
-            ],
-            [
-                {
-                    "name": "parent",
-                    "fullWidth": true
-                }
-            ],
-            [
-                {
-                    "name": "description",
-                    "fullWidth": true
+                    "name": "parent"
                 }
             ]
-        ]
+        ],
+        "style": "default",
+        "label": ""
     }
 ]
