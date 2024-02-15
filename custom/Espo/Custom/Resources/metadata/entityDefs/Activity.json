@@ -129,7 +129,8 @@
                 "Bad",
                 "BadEmail",
                 "Busy",
-                "AnsweringMachineNoAns"
+                "AnsweringMachineNoAns",
+                "Left a Message"
             ],
             "style": {
                 "": null,
@@ -137,7 +138,8 @@
                 "Bad": null,
                 "BadEmail": null,
                 "Busy": null,
-                "AnsweringMachineNoAns": null
+                "AnsweringMachineNoAns": null,
+                "Left a Message": null
             },
             "default": null,
             "isCustom": true,
@@ -148,22 +150,34 @@
             "options": [
                 "",
                 "None",
-                "LeftAMessage",
+                "Attendance Verified",
+                "Left a Message",
+                "Cancelled-Prospect",
+                "Cancelled- No Interest",
+                "Reschedule",
+                "Create New Sem Reg",
+                "Email instead",
+                "Busy/No Answer",
                 "NoShowCalled-CreatedNewSemReg",
                 "NoShowCalled-Prospect",
                 "NoShowCalled-NoInterest",
-                "BusyNoAnswer",
-                "EmailInstead"
+                "Introduction Complete"
             ],
             "style": {
                 "": null,
                 "None": null,
-                "LeftAMessage": null,
+                "Attendance Verified": null,
+                "Left a Message": null,
+                "Cancelled-Prospect": null,
+                "Cancelled- No Interest": null,
+                "Reschedule": null,
+                "Create New Sem Reg": null,
+                "Email instead": null,
+                "Busy/No Answer": null,
                 "NoShowCalled-CreatedNewSemReg": null,
                 "NoShowCalled-Prospect": null,
                 "NoShowCalled-NoInterest": null,
-                "BusyNoAnswer": null,
-                "EmailInstead": null
+                "Introduction Complete": null
             },
             "isCustom": true
         }
