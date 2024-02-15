@@ -1,0 +1,5 @@
+{
+    "primaryFilterClassNameMap": {
+        "upcoming": "Espo\\Custom\\Classes\\Select\\Seminar\\PrimaryFilters\\Upcoming"
+    }
+}
