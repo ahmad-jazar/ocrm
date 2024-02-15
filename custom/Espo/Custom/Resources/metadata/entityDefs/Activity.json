@@ -130,7 +130,7 @@
                 "BadEmail",
                 "Busy",
                 "AnsweringMachineNoAns",
-                "Left a Message"
+                "LeftAMessage"
             ],
             "style": {
                 "": null,
@@ -139,7 +139,7 @@
                 "BadEmail": null,
                 "Busy": null,
                 "AnsweringMachineNoAns": null,
-                "Left a Message": null
+                "LeftAMessage": null
             },
             "default": null,
             "isCustom": true,

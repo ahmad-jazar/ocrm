@@ -36,7 +36,8 @@
             "Bad": "Bad #",
             "BadEmail": "Bad # / Bad Email",
             "AnsweringMachineNoAns": "Answering Machine/No Ans",
-            "Left a Message": "Left a Message"
+            "Left a Message": "Left a Message",
+            "LeftAMessage": "Left a Message"
         },
         "callResult": {
             "": "",
