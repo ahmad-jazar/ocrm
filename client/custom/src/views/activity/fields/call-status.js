@@ -3,7 +3,7 @@ define('custom:views/activity/fields/call-status', ['views/fields/enum'], functi
     return Dep.extend({
 
         fieldValueMap: {
-            Bad: 'EmailInstead',
+            Bad: 'Email instead',
             BadEmail: 'None',
             Busy: 'BusyNoAnswer',
             LeftAMessage: 'Left a Message',
