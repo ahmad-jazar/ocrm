@@ -9,7 +9,11 @@
         "dateStartDate": "Date Start (all day)",
         "dateEndDate": "Date End (all day)",
         "isAllDay": "Is All-Day",
-        "seminarRegistration": "Seminar Registration"
+        "seminarRegistration": "Seminar Registration",
+        "name": "Call Subject",
+        "callStatus": "Call Status",
+        "callResult": "Call Result",
+        "description": "Call Notes"
     },
     "links": {
         "parent": "Parent",
@@ -20,6 +24,24 @@
             "Planned": "Planned",
             "Held": "Held",
             "Not Held": "Not Held"
+        },
+        "callStatus": {
+            "Call/Action Completed": "Call/Action Completed",
+            "Bad #": "Bad #",
+            "Bad # / Bad Email": "Bad # / Bad Email",
+            "Busy": "Busy",
+            "Answering Machine/No Ans": "Answering Machine/No Ans",
+            "": ""
+        },
+        "callResult": {
+            "": "",
+            "None": "None",
+            "Left a Message": "Left a Message",
+            "No Show Called - Created New Sem Reg": "No Show Called - Created New Sem Reg",
+            "No Show Called - Prospect": "No Show Called - Prospect",
+            "No Show Called - No Interest": "No Show Called - No Interest",
+            "Busy/No Answer": "Busy/No Answer",
+            "Email Instead": "Email Instead"
         }
     },
     "labels": {

@@ -3,7 +3,8 @@
         "name": {
             "type": "varchar",
             "required": true,
-            "pattern": "$noBadCharacters"
+            "pattern": "$noBadCharacters",
+            "options": []
         },
         "status": {
             "type": "enum",
@@ -116,6 +117,51 @@
         },
         "seminarRegistration": {
             "type": "link"
+        },
+        "callStatus": {
+            "type": "enum",
+            "options": [
+                "",
+                "Call/Action Completed",
+                "Bad #",
+                "Bad # / Bad Email",
+                "Busy",
+                "Answering Machine/No Ans"
+            ],
+            "style": {
+                "": null,
+                "Call/Action Completed": null,
+                "Bad #": null,
+                "Bad # / Bad Email": null,
+                "Busy": null,
+                "Answering Machine/No Ans": null
+            },
+            "default": null,
+            "isCustom": true
+        },
+        "callResult": {
+            "type": "enum",
+            "options": [
+                "",
+                "None",
+                "Left a Message",
+                "No Show Called - Created New Sem Reg",
+                "No Show Called - Prospect",
+                "No Show Called - No Interest",
+                "Busy/No Answer",
+                "Email Instead"
+            ],
+            "style": {
+                "": null,
+                "None": null,
+                "Left a Message": null,
+                "No Show Called - Created New Sem Reg": null,
+                "No Show Called - Prospect": null,
+                "No Show Called - No Interest": null,
+                "Busy/No Answer": null,
+                "Email Instead": null
+            },
+            "isCustom": true
         }
     },
     "links": {
