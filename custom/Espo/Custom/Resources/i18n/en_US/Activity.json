@@ -31,7 +31,11 @@
             "Bad # / Bad Email": "Bad # / Bad Email",
             "Busy": "Busy",
             "Answering Machine/No Ans": "Answering Machine/No Ans",
-            "": ""
+            "": "",
+            "CallActionCompleted": "Call/Action Completed",
+            "Bad": "Bad #",
+            "BadEmail": "Bad # / Bad Email",
+            "AnsweringMachineNoAns": "Answering Machine/No Ans"
         },
         "callResult": {
             "": "",
@@ -41,7 +45,13 @@
             "No Show Called - Prospect": "No Show Called - Prospect",
             "No Show Called - No Interest": "No Show Called - No Interest",
             "Busy/No Answer": "Busy/No Answer",
-            "Email Instead": "Email Instead"
+            "Email Instead": "Email Instead",
+            "LeftAMessage": "Left a Message",
+            "NoShowCalled-CreatedNewSemReg": "No Show Called - Created New Sem Reg",
+            "NoShowCalled-Prospect": "No Show Called - Prospect",
+            "NoShowCalled-NoInterest": "No Show Called - No Interest",
+            "BusyNoAnswer": "Busy/No Answer",
+            "EmailInstead": "Email Instead"
         }
     },
     "labels": {

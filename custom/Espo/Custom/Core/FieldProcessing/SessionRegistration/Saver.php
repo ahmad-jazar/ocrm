@@ -32,8 +32,8 @@ class Saver implements SaverInterface
             $contact->set('firstName', $entity->get('firstName'));
             $contact->set('lastName', $entity->get('lastName'));
             $contact->set('vMobile', $entity->get('vMobile'));
-            $contact->set('vPhone', $entity->get('vPhone'));
-            $contact->set('vEmail', $entity->get('vEmail'));
+            $contact->set('vPhone', $entity->get('phoneNumber'));
+            $contact->set('vEmail', $entity->get('emailAddress'));
             $contact->set('assignedUserName', $entity->get('contactOwnerName'));
             $contact->set('assignedUserId', $entity->get('contactOwnerId'));
             $contact->set('contactStatus', $entity->get('contactStatus'));
