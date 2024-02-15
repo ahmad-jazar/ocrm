@@ -6,7 +6,7 @@ define('custom:views/activity/fields/call-status', ['views/fields/enum'], functi
             Bad: 'EmailInstead',
             BadEmail: 'None',
             Busy: 'BusyNoAnswer',
-            LeftAMessage: 'LeftAMessage',
+            LeftAMessage: 'Left a Message',
             AnsweringMachineNoAns: 'BusyNoAnswer',
         },
 
