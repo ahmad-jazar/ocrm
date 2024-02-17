@@ -36,7 +36,10 @@
                 }
             ]
         ],
+        "dynamicLogicVisible": null,
         "style": "default",
-        "label": "Overview"
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Overview"
     }
 ]

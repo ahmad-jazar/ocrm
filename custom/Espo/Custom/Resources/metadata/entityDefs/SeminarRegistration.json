@@ -2,7 +2,7 @@
     "fields": {
         "name": {
             "type": "varchar",
-            "required": true,
+            "required": false,
             "pattern": "$noBadCharacters",
             "options": []
         },
@@ -87,7 +87,8 @@
             "view": "custom:views/seminar-registration/fields/seminar"
         },
         "contact": {
-            "type": "link"
+            "type": "link",
+            "required": true
         },
         "salutationName": {
             "type": "varchar",

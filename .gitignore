@@ -20,3 +20,4 @@ client/tmp/
 # Ignore miscellaneous files
 composer.lock
 composer.phar
+data/upload/65ce0059125629615
