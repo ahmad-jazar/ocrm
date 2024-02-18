@@ -8,5 +8,10 @@
         "route": "/AddContact",
         "method": "post",
         "actionClassName": "Espo\\Custom\\Tools\\AddContact\\Api\\Post"
+    },
+    {
+        "route": "/ExternalApi",
+        "method": "get",
+        "actionClassName": "Espo\\Custom\\Tools\\ExternalApi\\Api\\Get"
     }
 ]
