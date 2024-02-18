@@ -1,13 +1,13 @@
 [
     {
-        "name": "name",
-        "link": true,
-        "label": "Name"
+        "name": "seminarRegistrationsFollowUp"
     },
     {
-        "name": "contact"
+        "name": "contact",
+        "label": "Contact"
     },
     {
-        "name": "assignedUser"
+        "name": "assignedUser",
+        "label": "Assigned EC"
     }
 ]
