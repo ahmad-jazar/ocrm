@@ -19,7 +19,8 @@
         "address": "Address",
         "campaign": "Campaign",
         "leadSource": "Lead Source",
-        "registrationNotes": "Registration Notes"
+        "registrationNotes": "Registration Notes",
+        "new": "New"
     },
     "links": {
         "contact": "Contact",

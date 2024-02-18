@@ -240,6 +240,11 @@
             "rowsMin": 2,
             "cutHeight": 200,
             "isCustom": true
+        },
+        "new": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
         }
     },
     "links": {
