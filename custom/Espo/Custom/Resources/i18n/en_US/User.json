@@ -4,5 +4,10 @@
     },
     "links": {
         "seminarRegistrations": "Seminar Registrations"
+    },
+    "options": {
+        "type": {
+            "manger": "Manger"
+        }
     }
 }

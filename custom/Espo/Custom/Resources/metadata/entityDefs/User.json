@@ -10,6 +10,13 @@
             "exportDisabled": true,
             "customizationDisabled": true,
             "isCustom": true
+        },
+        "type": {
+            "type": "enum",
+            "options": [
+                "__APPEND__",
+                "manger"
+            ]
         }
     },
     "links": {

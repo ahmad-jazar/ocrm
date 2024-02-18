@@ -1,4 +1,7 @@
 {
+    "recordViews": {
+        "edit": "custom:views/user/record/edit-1"
+    },
     "relationshipPanels": {
         "seminarRegistrations": {
             "layout": null
