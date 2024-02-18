@@ -28,8 +28,9 @@ class Post implements Action
         $email = $data['email'];
         $phone = $data['phone'];
         $seminarId = $data['seminarId'];
+        $contactStatus = $data['contactStatus'];
 
-        if (empty($firstName) || empty($lastName) || empty($email) || empty($phone) || empty($seminarId)) {
+        if (empty($firstName) || empty($lastName) || empty($email) || empty($phone) || empty($seminarId) || empty($contactStatus)) {
             return ResponseComposer::json([
                 'error' => 'Invalid data'
             ]);
@@ -44,7 +45,8 @@ class Post implements Action
                 'firstName' => $firstName,
                 'lastName' => $lastName,
                 'vEmail' => $email,
-                'vMobile' => $phone
+                'vMobile' => $phone,
+                'contactStatus' => $contactStatus
             ]);
             $massage = 'Contact created';
 
