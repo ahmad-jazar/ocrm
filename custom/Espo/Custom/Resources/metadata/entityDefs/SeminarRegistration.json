@@ -245,6 +245,13 @@
             "notNull": true,
             "type": "bool",
             "isCustom": true
+        },
+        "seminarRegistrationsFollowUp": {
+            "type": "url",
+            "isCustom": true,
+            "notStorable": true,
+            "view": "custom:views/seminar-registration/fields/seminar-registrations-follow-up-name",
+            "readOnly": true
         }
     },
     "links": {

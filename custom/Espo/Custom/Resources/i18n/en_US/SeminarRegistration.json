@@ -20,7 +20,8 @@
         "campaign": "Campaign",
         "leadSource": "Lead Source",
         "registrationNotes": "Registration Notes",
-        "new": "New"
+        "new": "New",
+        "seminarRegistrationsFollowUp": "Seminar Registrations Follow Up"
     },
     "links": {
         "contact": "Contact",
