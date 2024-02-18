@@ -4,6 +4,9 @@
   "recordViews": {
     "detail": "custom:views/seminar-registrations-follow-up/record/detail"
   },
+  "views": {
+    "detail": "custom:views/seminar-registrations-follow-up/detail"
+  },
   "boolFilterList": [
     "onlyMy"
   ],
