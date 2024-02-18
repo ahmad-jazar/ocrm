@@ -73,6 +73,7 @@ define('advanced:views/report/modals/sub-report',
             }, view => {
                 view.getSelectAttributeList(selectAttributeList => {
                     if (selectAttributeList) {
+                        selectAttributeList.push('name');
                         this.collection.data.select = selectAttributeList.join(',');
                     }
 
