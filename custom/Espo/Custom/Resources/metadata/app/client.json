@@ -1,0 +1,10 @@
+{
+    "scriptList": [
+        "__APPEND__",
+        "client/custom/src/script.js"
+    ],
+    "developerModeScriptList": [
+        "__APPEND__",
+        "client/custom/src/script.js"
+    ]
+}
