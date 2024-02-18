@@ -1,16 +1,7 @@
-
-define('advanced:views/report/modals/sub-report',
-['views/modal', 'advanced:report-helper'], function (Dep, ReportHelper) {
-
-    return Dep.extend({
-
-        cssName: 'sub-report',
-        backdrop: true,
-        className: 'dialog dialog-record',
-
-        templateContent: '<div class="list-container">{{{list}}}</div>',
-
-        setup: function () {
+(function (define) {
+    define("custom:views/report/modals/sub-report", ["exports", "advanced:views/report/modals/sub-report",'advanced:report-helper'], function (_exports, Dep,ReportHelper) {
+        
+        Dep.prototype.setup = function () {
             this.buttonList = [
                 {
                     name: 'cancel',
@@ -73,6 +64,7 @@ define('advanced:views/report/modals/sub-report',
             }, view => {
                 view.getSelectAttributeList(selectAttributeList => {
                     if (selectAttributeList) {
+                        selectAttributeList.push('name');
                         this.collection.data.select = selectAttributeList.join(',');
                     }
 
@@ -83,6 +75,8 @@ define('advanced:views/report/modals/sub-report',
                     this.collection.fetch();
                 });
             });
-        },
+        }
     });
-});
+
+
+}).call(window, define)
