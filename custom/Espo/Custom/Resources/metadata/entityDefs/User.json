@@ -10,6 +10,10 @@
             "exportDisabled": true,
             "customizationDisabled": true,
             "isCustom": true
+        },
+        "changePasswordFlag": {
+            "type": "bool",
+            "default": false
         }
     },
     "links": {

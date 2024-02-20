@@ -78,5 +78,40 @@
         }
     });
 
+    define("custom:views/site/master", ["exports", "views/site/master"], function (_exports, Dep) {
+
+        const _afterRender = Dep.prototype.afterRender;
+        Dep.prototype.afterRender = function () {
+            _afterRender.call(this);
+
+            if (!this.getUser().get('changePasswordFlag')) {
+                return;
+            }
+
+            this.createView('dialog', 'custom:views/modals/change-password-required', {}, (view) => {
+                view.render();
+            });
+        }
+    });
+
+    define("custom:views/fields/password", ["exports", "views/fields/password"], function (_exports, Dep) {
+        const _validateConfirm = Dep.prototype.validateConfirm;
+
+        Dep.prototype.validateConfirm = function () {
+
+            if (this.model.has('currentPassword') && this.name === 'password') {
+                if (this.model.get('password') === this.model.get('currentPassword')) {
+                    let msg = this.translate('fieldBadCurrentPassword', 'messages')
+                        .replace('{field}', this.getLabelText());
+
+                    // this.showValidationMessage(msg);
+                    this.notify(msg, 'error');
+                    return true;
+                }
+            }
+
+            return _validateConfirm.call(this);
+        }
+    });
 
 }).call(window, define)

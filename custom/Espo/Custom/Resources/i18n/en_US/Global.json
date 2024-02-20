@@ -18,5 +18,8 @@
     "labels": {
         "Schedule Activity": "Schedule Activity",
         "Log Activity": "Log Activity"
+    },
+    "messages":{
+        "fieldBadCurrentPassword": "You must enter a different password than the current one."
     }
 }
