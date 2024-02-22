@@ -19,6 +19,10 @@
         "Schedule Activity": "Schedule Activity",
         "Log Activity": "Log Activity"
     },
+
+    "massActions": {
+        "pdfEx": "Export to PDF"
+       },
     "messages":{
         "fieldBadCurrentPassword": "You must enter a different password than the current one."
     }
