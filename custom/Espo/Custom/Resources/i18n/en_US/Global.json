@@ -18,5 +18,8 @@
     "labels": {
         "Schedule Activity": "Schedule Activity",
         "Log Activity": "Log Activity"
+    },
+    "massActions": {
+        "pdfEx": "Export to PDF"
     }
 }

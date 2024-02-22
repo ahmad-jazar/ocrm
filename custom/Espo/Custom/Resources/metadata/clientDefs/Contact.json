@@ -72,5 +72,15 @@
                 "order": 4
             }
         ]
+    },
+    "massActionList": [
+        "__APPEND__",
+        "pdfEx"
+    ],
+    "massActionDefs": {
+        "pdfEx": {
+            "initFunction": "init",
+            "handler": "custom:handlers/contact/mass-pdf-handler"
+        }
     }
 }

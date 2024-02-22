@@ -1,0 +1,11 @@
+{
+    "Contact": {
+        "foreignLink": {
+            "location": "clientDefs",
+            "fieldDefs": {
+                "type": "enum",
+                "view": "custom:views/fields/foreign-link"
+            }
+        }
+    }
+}
