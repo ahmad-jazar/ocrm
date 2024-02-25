@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "logOutDisabled": {
+            "type": "bool",
+            "default": false
+        }
+    }
+}

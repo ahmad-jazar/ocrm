@@ -1,6 +1,6 @@
 (function (define) {
-    define("custom:views/report/modals/sub-report", ["exports", "advanced:views/report/modals/sub-report",'advanced:report-helper'], function (_exports, Dep,ReportHelper) {
-        
+    define("custom:views/report/modals/sub-report", ["exports", "advanced:views/report/modals/sub-report", 'advanced:report-helper'], function (_exports, Dep, ReportHelper) {
+
         Dep.prototype.setup = function () {
             this.buttonList = [
                 {
@@ -112,6 +112,22 @@
 
             return _validateConfirm.call(this);
         }
+    });
+
+    define("custom:views/site/navbar", ["exports", "views/site/navbar"], function (_exports, Dep) {
+        const _getTabList = Dep.prototype.getTabList;
+        Dep.prototype.getTabList = function () {
+            const tabList = _getTabList.call(this);
+            const logOutDisabled = this.getConfig().get('logOutDisabled');
+
+            if (logOutDisabled) {
+                return tabList;
+            }
+
+            tabList.push('logout');
+            return tabList;
+        };
+
     });
 
 }).call(window, define)
