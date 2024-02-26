@@ -1,0 +1,16 @@
+{
+  "@Iframe": {
+    "url": {
+      "location": "clientDefs",
+      "fieldDefs": {
+        "type": "url"
+      }
+    },
+    "header": {
+      "location": "clientDefs",
+      "fieldDefs": {
+        "type": "varchar"
+      }
+    }
+  }
+}
