@@ -65,7 +65,8 @@ class Post implements Action
         if (empty($seminarRegistration)) {
             $this->entityManager->createEntity('SeminarRegistration', [
                 'contactId' => $contact->getId(),
-                'seminarId' => $seminarId
+                'seminarId' => $seminarId,
+                'registrationDate' => date('Y-m-d H:i:s')
             ]);
         }
 
