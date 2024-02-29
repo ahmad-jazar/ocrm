@@ -1,0 +1,5 @@
+{
+    "controller": "custom:controllers/logout",
+    "iconClass": "fas fa-sign-out-alt",
+    "color": "#ff0000"
+}
