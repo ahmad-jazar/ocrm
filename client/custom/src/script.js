@@ -114,20 +114,4 @@
         }
     });
 
-    define("custom:views/site/navbar", ["exports", "views/site/navbar"], function (_exports, Dep) {
-        const _getTabList = Dep.prototype.getTabList;
-        Dep.prototype.getTabList = function () {
-            const tabList = _getTabList.call(this);
-            const logOutDisabled = this.getConfig().get('logOutDisabled');
-
-            if (logOutDisabled) {
-                return tabList;
-            }
-
-            tabList.push('logout');
-            return tabList;
-        };
-
-    });
-
 }).call(window, define)
