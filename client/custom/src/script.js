@@ -88,7 +88,7 @@
                 return;
             }
 
-            this.createView('dialog', 'custom:views/modals/change-password-required', {}, (view) => {
+            this.createView('dialog', 'custom:views/modals/force-change-password', {}, (view) => {
                 view.render();
             });
         }

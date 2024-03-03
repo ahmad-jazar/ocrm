@@ -1,4 +1,4 @@
-define('custom:views/modals/change-password-required', ['views/modals/change-password'], function (Dep) {
+define('custom:views/modals/force-change-password', ['views/modals/change-password'], function (Dep) {
     return Dep.extend({
 
         noCloseButton: true,
