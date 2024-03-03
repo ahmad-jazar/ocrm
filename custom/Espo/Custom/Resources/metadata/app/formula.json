@@ -1,0 +1,13 @@
+{
+    "functionClassNameMap": {
+        "string\\tafqeet": "Espo\\Custom\\Core\\Formula\\Functions\\StringGroup\\Tafqeet"
+    },
+    "functionList": [
+        "__APPEND__",
+        {
+            "name": "string\\tafqeet",
+            "insertText": "string\\tafqeet(FIELD, LANGUAGE)",
+            "returnType": "string"
+        }
+    ]
+}
