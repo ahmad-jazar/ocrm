@@ -1,8 +1,13 @@
 {
     "fields": {
-        "seminarRegistrations": "Seminar Registrations"
+        "seminarRegistrations": "Seminar Registrations",
+        "changePasswordFlag": "Change Password Flag"
     },
     "links": {
         "seminarRegistrations": "Seminar Registrations"
+    },
+    "messages": {
+        "changePasswordRequiredHeader": "Please change your password",
+        "changePasswordRequired": "Change Password Required"
     }
 }

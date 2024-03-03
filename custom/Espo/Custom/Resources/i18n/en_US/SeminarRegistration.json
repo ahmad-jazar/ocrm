@@ -15,7 +15,13 @@
         "reschedule": "Reschedule",
         "seminarRegistrationParent": "Seminar Registration Parent",
         "activities": "Activities",
-        "contactOwner": "Contact Owner"
+        "contactOwner": "Contact Owner",
+        "address": "Address",
+        "campaign": "Campaign",
+        "leadSource": "Lead Source",
+        "registrationNotes": "Registration Notes",
+        "new": "New",
+        "seminarRegistrationsFollowUp": "Seminar Registrations Follow Up"
     },
     "links": {
         "contact": "Contact",
@@ -38,6 +44,18 @@
             "-": "-",
             "Cancelled": "Cancelled",
             "Rescheduled": "Rescheduled"
+        },
+        "campaign": [],
+        "leadSource": {
+            "": "",
+            "Direct Mail": "Direct Mail",
+            "Infomercial": "Infomercial",
+            "Magazine Newspaper": "Magazine Newspaper",
+            "Online": "Online",
+            "Other / Unknown": "Other / Unknown",
+            "Radio Ad": "Radio Ad",
+            "Radio Show": "Radio Show",
+            "Television": "Television"
         }
     }
 }

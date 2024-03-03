@@ -3,7 +3,8 @@
         "name": {
             "type": "varchar",
             "required": true,
-            "pattern": "$noBadCharacters"
+            "pattern": "$noBadCharacters",
+            "options": []
         },
         "status": {
             "type": "enum",
@@ -27,12 +28,15 @@
         },
         "dateEnd": {
             "type": "datetimeOptional",
+            "notNull": false,
             "view": "crm:views/meeting/fields/date-end",
             "required": true,
             "after": "dateStart",
             "suppressValidationList": [
                 "required"
-            ]
+            ],
+            "default": "javascript: return this.dateTime.getNow(1);",
+            "minuteStep": 30
         },
         "isAllDay": {
             "type": "bool",
@@ -116,6 +120,66 @@
         },
         "seminarRegistration": {
             "type": "link"
+        },
+        "callStatus": {
+            "type": "enum",
+            "options": [
+                "",
+                "CallActionCompleted",
+                "Bad",
+                "BadEmail",
+                "Busy",
+                "AnsweringMachineNoAns",
+                "LeftAMessage"
+            ],
+            "style": {
+                "": null,
+                "CallActionCompleted": null,
+                "Bad": null,
+                "BadEmail": null,
+                "Busy": null,
+                "AnsweringMachineNoAns": null,
+                "LeftAMessage": null
+            },
+            "default": null,
+            "isCustom": true,
+            "view": "custom:views/activity/fields/call-status"
+        },
+        "callResult": {
+            "type": "enum",
+            "options": [
+                "",
+                "None",
+                "Attendance Verified",
+                "Left a Message",
+                "Cancelled-Prospect",
+                "Cancelled- No Interest",
+                "Reschedule",
+                "Create New Sem Reg",
+                "Email instead",
+                "Busy/No Answer",
+                "NoShowCalled-CreatedNewSemReg",
+                "NoShowCalled-Prospect",
+                "NoShowCalled-NoInterest",
+                "Introduction Complete"
+            ],
+            "style": {
+                "": null,
+                "None": null,
+                "Attendance Verified": null,
+                "Left a Message": null,
+                "Cancelled-Prospect": null,
+                "Cancelled- No Interest": null,
+                "Reschedule": null,
+                "Create New Sem Reg": null,
+                "Email instead": null,
+                "Busy/No Answer": null,
+                "NoShowCalled-CreatedNewSemReg": null,
+                "NoShowCalled-Prospect": null,
+                "NoShowCalled-NoInterest": null,
+                "Introduction Complete": null
+            },
+            "isCustom": true
         }
     },
     "links": {

@@ -29,7 +29,20 @@
                 }
             ]
         ],
+        "dynamicLogicVisible": {
+            "conditionGroup": [
+                {
+                    "type": "isNotEmpty",
+                    "attribute": "seminarId",
+                    "data": {
+                        "field": "seminar"
+                    }
+                }
+            ]
+        },
         "style": "default",
-        "label": "Overview"
+        "tabBreak": false,
+        "hidden": false,
+        "customLabel": "Overview"
     }
 ]

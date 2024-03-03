@@ -45,8 +45,7 @@
         "contact": {
             "layout": null
         },
-        "tasks": {
-        },
+        "tasks": [],
         "activities": {
             "createHandler": "custom:handlers/seminar-registration/tasks-create"
         },
@@ -75,6 +74,23 @@
     "additionalLayouts": {
         "SeminarRegistrationsFollowUpDetail": {
             "type": "detail"
+        }
+    },
+    "modalViews": {
+        "edit": "custom:views/common/modals/edit"
+    },
+    "dynamicLogic": {
+        "fields": {
+            "name": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isEmpty",
+                            "attribute": "name"
+                        }
+                    ]
+                }
+            }
         }
     }
 }

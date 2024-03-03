@@ -2,8 +2,9 @@
     "fields": {
         "name": {
             "type": "varchar",
-            "required": true,
-            "pattern": "$noBadCharacters"
+            "required": false,
+            "pattern": "$noBadCharacters",
+            "options": []
         },
         "description": {
             "type": "text"
@@ -69,7 +70,7 @@
                 "Cancelled": null,
                 "Rescheduled": null
             },
-            "default": "Left a Message",
+            "default": "-",
             "isCustom": true
         },
         "attended": {
@@ -86,7 +87,8 @@
             "view": "custom:views/seminar-registration/fields/seminar"
         },
         "contact": {
-            "type": "link"
+            "type": "link",
+            "required": true
         },
         "salutationName": {
             "type": "varchar",
@@ -195,6 +197,61 @@
         },
         "contactOwner": {
             "type": "link"
+        },
+        "address": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "campaign": {
+            "type": "enum",
+            "style": {},
+            "isCustom": true
+        },
+        "leadSource": {
+            "type": "enum",
+            "options": [
+                "",
+                "Direct Mail",
+                "Infomercial",
+                "Magazine Newspaper",
+                "Online",
+                "Other / Unknown",
+                "Radio Ad",
+                "Radio Show",
+                "Television"
+            ],
+            "style": {
+                "": null,
+                "Direct Mail": null,
+                "Infomercial": null,
+                "Magazine Newspaper": null,
+                "Online": null,
+                "Other / Unknown": null,
+                "Radio Ad": null,
+                "Radio Show": null,
+                "Television": null
+            },
+            "isCustom": true
+        },
+        "registrationNotes": {
+            "type": "text",
+            "rowsMin": 2,
+            "cutHeight": 200,
+            "isCustom": true
+        },
+        "new": {
+            "notNull": true,
+            "type": "bool",
+            "isCustom": true
+        },
+        "seminarRegistrationsFollowUp": {
+            "type": "url",
+            "isCustom": true,
+            "notStorable": true,
+            "view": "custom:views/seminar-registration/fields/seminar-registrations-follow-up-name",
+            "readOnly": true
         }
     },
     "links": {

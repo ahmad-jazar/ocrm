@@ -1,0 +1,3 @@
+{
+    "beforeSaveCustomScript": "ifThen(name == null && seminarRegistrationParentId != null, name = seminarRegistrationParent.name)"
+}

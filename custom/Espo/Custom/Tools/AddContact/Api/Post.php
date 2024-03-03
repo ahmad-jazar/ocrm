@@ -28,8 +28,11 @@ class Post implements Action
         $email = $data['email'];
         $phone = $data['phone'];
         $seminarId = $data['seminarId'];
+        $contactStatus = $data['contactStatus'];
+        $leadSource = $data['leadSource'];
 
-        if (empty($firstName) || empty($lastName) || empty($email) || empty($phone) || empty($seminarId)) {
+        if (empty($firstName) || empty($lastName) || empty($email) || empty($phone) || empty($seminarId) || empty($contactStatus) || empty($leadSource)) {
+
             return ResponseComposer::json([
                 'error' => 'Invalid data'
             ]);
@@ -44,7 +47,9 @@ class Post implements Action
                 'firstName' => $firstName,
                 'lastName' => $lastName,
                 'vEmail' => $email,
-                'vMobile' => $phone
+                'vMobile' => $phone,
+                'contactStatus' => $contactStatus,
+                'leadSource' => $leadSource
             ]);
             $massage = 'Contact created';
 
@@ -52,6 +57,7 @@ class Post implements Action
             $contact->set('firstName', $firstName);
             $contact->set('lastName', $lastName);
             $contact->set('vMobile', $phone);
+            $contact->set('leadSource', $leadSource);
             $this->entityManager->saveEntity($contact);
             $massage = 'Contact already exists';
         }
@@ -63,7 +69,8 @@ class Post implements Action
         if (empty($seminarRegistration)) {
             $this->entityManager->createEntity('SeminarRegistration', [
                 'contactId' => $contact->getId(),
-                'seminarId' => $seminarId
+                'seminarId' => $seminarId,
+                'registrationDate' => date('Y-m-d H:i:s')
             ]);
         }
 
