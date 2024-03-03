@@ -25,7 +25,8 @@ class Upcoming implements Filter
         $now = new DateTime('now', new \DateTimeZone($timezone));
 
         $queryBuilder->where([
-            'seminarStartTime >=' => $now->format('Y-m-d H:i:s')
+//            'seminarStartTime >=' => $now->format('Y-m-d H:i:s')
+            'seminarStartTime >=' => date('Y-m-d H:i:s')
         ]);
     }
 }
