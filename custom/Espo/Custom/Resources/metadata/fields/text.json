@@ -1,0 +1,10 @@
+{
+    "params": [
+        "__APPEND__",
+        {
+            "name": "tafqeet",
+            "type": "enum",
+            "view": "custom:views/admin/field-manager/fields/enum"
+        }
+        ]
+}
